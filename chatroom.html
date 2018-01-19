@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+<title>Welkom | Chatroom</title>
+<link rel="stylesheet" href="chatroom.css">
+<script src="chatroom.js"></script>
+<!-- <script src="jquery-3.2.1.min.js"></script> -->
+</head>
+<body>
+    <div id="menu">
+        <p class="welcome"></p>
+    </div>
+
+
+
+    <div class="chatbox">
+      <div id="chatheader">
+        <h3> Welcome to the chat </h3>
+      </div>
+      <div class="chat" id="chat">
+      </div>
+
+      <form method="get" action="https://codegorilla.nl/read_write/api.php?action=read&mykey=12345&id=">
+        <input type="text" name="mykey" id="mykey" placeholder="your name" required autofocus/>
+        <input type="text" name="value" id="value" placeholder="your message"/>
+        <input type="button" onclick="sendFunc()" name="action" id="send" value="Send"/>
+        <!-- <input type="submit" onclick="sendFunc();return false;" name="action" id="send" value="Send"/> -->
+      </form>
+    </div>
+
+</body>
+</html>

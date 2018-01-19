@@ -1,0 +1,23 @@
+.chatbox{
+    width: 300px;
+    height: 500px;
+    border: 2px solid green;
+    padding: 25px;
+    margin: 25px;
+}
+
+#chatheader{
+  border-bottom: 1px solid green;
+
+}
+.messages{
+  color: black;
+}
+
+.message{
+  color: black;
+}
+
+.chat{
+  height: 400px;
+}
